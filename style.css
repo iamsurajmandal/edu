@@ -1,0 +1,400 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*my code*/
+
+  
+
+
+*{
+    text-decoration: none;
+    
+    
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    
+}
+
+header .header-brand{
+    font-family: catamaran;
+    font-size: 10px;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding:20px 0; 
+}
+
+header nav ul
+{  display: block;
+    margin: 0 auto;
+    width:fit-content;
+    
+    }
+header nav ul li
+{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 6px;
+    
+    }
+header nav ul li a
+{
+     font-family: catamaran;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+    }
+header .header-cases{
+    display: none;
+}
+
+.update{
+    margin:16px 16px 0;
+    width: Calc(100%-32px);
+    height: 50px;
+    background-color: #f2f2f2;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 100px;
+    color: #111;
+   
+}
+
+.update{
+   font-family: catamaran;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 50px;
+    color: #111;
+    text-align: left;
+    text-transform: uppercase;
+}
+h1{
+    font-size:10px;
+    color: #111;
+    line-height: 25px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: right;   
+}
+
+
+/* index box-code */
+
+.index-links  div{
+    margin: 16px 16px 0;
+    width: calc(100%-32px);
+    height: 90px;
+    background-color:#f2f2f2;
+}
+.index-links  div h3{
+    font-family: catamaran;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 50px;
+    color:#111;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+.index-links  h4{
+    padding-bottom: 20px;
+    font-family: catamaran;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 10px;
+    padding-top:20px;
+    color:#FF4136;
+    text-align: center;
+    text-transform: uppercase;
+   
+
+
+}
+.index-links  a{
+      margin: 16px 16px 0;
+
+    text-align: 
+    font-family: catamaran;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+    color:#FF4136;
+    display: block;
+    text-align: center;
+   
+    text-transform: uppercase;
+   
+}
+
+
+/*Logo of services*/
+.index-banner{
+    
+    width: 100%;
+    height: calc(50vh - 50px);
+    background-image: url(pexels-photo-450271.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+/*Footer*/
+footer{
+    width: calc(100%-80px);
+    padding: 40px 40px;
+    background-color: #111;
+    overflow: hidden;
+    margin-top: 20px;
+}
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+    }
+footer ul li{
+    display: block;
+    list-style: none;
+
+}
+footer ul li a{
+   font-family: catamaran;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+
+}
+
+.footer-links-cases{
+    display: none;
+
+}
+.footer-sm{
+    width: 50px;
+    float: right;
+    background-color: white;
+
+}
+
+.footer-sm img{
+
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+/*applying media */
+
+
+@media only screen and (min-width:1000px){
+  
+header .header-brand{ 
+    margin: 31 0;
+    text-align: left;
+    padding:0 20px 0 40px;
+    border-right: 3px solid #111;
+    line-height: 38px;
+    float: left;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+header nav ul
+{  margin: 20px 0px 0px 20px;
+    float: left
+    
+    }
+
+header nav ul li a
+{
+    line-height:5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-right: 30px;
+    }
+
+.update{
+    margin:-40px 2px 2px 0;
+    line-height: 10px;   
+}
+
+.update{
+    line-height: 50px;
+    }
+h1{
+    font-size:10px;
+    line-height: 25px;
+    margin-right: 2px;  
+    display: inline-block;
+}
+    
+    
+    
+.index-links  div{
+    margin: 10px 10px 0;
+    height: 30px;
+    float: left;
+    }
+    
+    
+.index-links  div h3{
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 50px;
+    color:#111;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+.index-links  h4{
+    line-height: 10px;
+}
+.index-links  a{
+      margin:2px;
+    float: left;
+    text-align:left;
+    font-family: catamaran;
+    line-height: 20px;
+   text-transform: uppercase;
+   
+}
+
+    
+/*Logo of services*/
+.index-banner{
+    
+    width:400px;
+    height:200px;
+    display:block;
+}
+
+    
+    
+    
+    
+
+   
+    
+    
+} 
+    
+    
+
+
+
+
+
+
+
+
+

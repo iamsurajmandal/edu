@@ -1,0 +1,586 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*my code*/
+
+
+
+
+*{
+    text-decoration: none;
+
+
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+
+}
+
+header .header-brand{
+    font-family: catamaran;
+    font-size: 10px;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding:20px 0;
+}
+
+header nav ul
+{  display: block;
+    margin: 0 auto;
+    width:fit-content;
+
+    }
+header nav ul li
+{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 6px;
+
+    }
+header nav ul li a
+{
+     font-family: catamaran;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+    }
+header .header-cases{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*Logo of services*/
+.index-banner{
+
+    width: 100%;
+    height: calc(50vh - 50px);
+    background-image: url(pexels-photo-450271.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+/*Footer*/
+footer{
+    width: calc(100%-80px);
+    padding: 20px 20px;
+    background-color: #111;
+    overflow: hidden;
+    margin-top: 20px;
+}
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+    }
+footer ul li{
+    display: block;
+    list-style: none;
+
+}
+footer ul li a{
+   font-family: catamaran;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+
+}
+
+.footer-links-cases{
+    display: none;
+
+}
+.footer-sm{
+    width: 50px;
+    float: right;
+    background-color: white;
+
+}
+
+.footer-sm img{
+
+    width: 100%;
+    margin-bottom: 0px;
+
+}
+*{
+  font-family: catamaran;
+  cursor: pointer;
+}
+
+
+
+.ab{
+border:1px solid black;
+height: 10vh;
+background-color: #001f3f;
+
+
+
+}
+
+.ab h6{
+   font-size:20px;
+   font-family: catamaran;
+   text-align: center;
+   padding-top: 25px;
+   color:#f2f2f2;
+
+
+
+}
+.our{
+   font-size: 20px;
+   margin: 5px 40px 0px 40px 5px;
+
+
+
+  text-align:center;
+
+
+}
+
+.our h1{
+   color:#001f3f;
+   padding: 5px;
+}
+
+.ser{
+  border:2px solid  #111;
+  height: 307.5vh;
+  box-sizing: border-box;
+
+
+
+
+}
+
+.box{
+  border:1px solid  #111;
+  height: 20vh;
+  margin:1px 0px 0px 0px;
+}
+.box h1{
+   text-align: center;
+   font-size:15px;
+
+}
+.apply{
+  border: 1px solid #111;
+  height: 5vh;
+  margin: 15vh 0px 0px 0px;
+  background-color: #001f3f;
+}
+
+.apply h1{
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 10px 0px 0px 0px;
+
+}
+
+/*regular cash course */
+
+.ch{
+border:1px solid #111;
+height: 10vh;
+background-color: #001f3f;
+margin: 1px 0px 0px 0px;
+
+
+
+}
+
+.ch h6{
+   font-size:25px;
+   font-family: catamaran;
+   text-align: center;
+   padding-top: 15px;
+   color:#f2f2f2;
+}
+
+/*eligbility box*/
+.ehs{
+border: 1px solid #111;
+height: 130vh;
+margin:2px 0px 0px 0px;
+
+}
+.elig{
+border: 1px solid #111;
+height: 30vh;
+margin:2px 0px 0px 0px;
+background-color:#76323f;
+
+/* purpul 4717f6*/
+
+
+}
+.hw{
+border: 1px solid #111;
+height: 50vh;
+margin:2px 0px 0px 0px;
+background-color:#76323f;
+
+}
+.sf{
+border: 1px solid #111;
+height: 48vh;
+margin:2px 0px 0px 0px;
+background-color:#76323f;
+
+
+}
+.cen{
+  border: 1px solid #111;
+  height:5vh;
+  width:180px;
+  margin: 2px 10px 2px 105px;
+  background-color:#001f3f;
+
+}
+.cen h1{
+  text-align: center;
+  font-size: 20px;
+  color:#f2f2f2;
+  padding-top: 10px;
+
+
+}
+
+.we{
+  border: 1px solid #111;
+  height:5vh;
+  width:180px;
+  margin: 2px 10px 2px 105px;
+  background-color:#001f3f;
+
+}
+.we h1{
+  text-align: center;
+  font-size: 20px;
+  color:#f2f2f2;
+  padding-top: 10px;
+
+
+}
+
+.sa{
+  border: 1px solid #111;
+  height:5vh;
+  width:180px;
+  margin: 2px 10px 2px 105px;
+  background-color:#001f3f;
+
+}
+.sa h1{
+  text-align: center;
+  font-size: 20px;
+  color:#f2f2f2;
+  padding-top: 10px;
+
+
+}
+
+
+
+.elig ul li{
+
+  font-size: 20px;
+  color:#E7DFDD;
+  margin: 0px 1px 0px 40px;
+  list-style-type: circle;
+
+
+
+
+}
+
+.hw ul li{
+
+  font-size: 20px;
+  color:#E7DFDD;
+  list-style-type: circle;
+
+
+  margin: 0px 1px 0px 40px;
+
+
+}
+.sf ul li{
+  list-style-type: circle;
+  font-size: 20px;
+  color:#E7DFDD;
+  margin: 0px 1px 0px 40px;
+}
+
+@media only screen and (min-width:1000px){
+
+  .our{
+     font-size: 30px;
+}
+
+  .our h1{
+   padding: 10px;
+  }
+
+
+  .ser{
+    border:2px hidden  #111;
+    height: 105vh;
+  }
+
+  .box{
+    border:1px solid  #111;
+    width: 200px;
+    height: 30vh;
+    margin:15px 5px 0px 35px;
+    float:left;
+  }
+  .box h1{
+     text-align: center;
+     font-size:15px;
+
+  }
+  .apply{
+    border: 1px solid #111;
+    height: 5vh;
+    margin: 160px 0px 0px 0px;
+    background-color: #001f3f;
+  }
+
+  .apply a{
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 10px 0px 0px 0px;
+
+  }
+
+
+  .ehs{
+  border: 1px hidden #111;
+  height: 56vh;
+  margin:0px 0px 0px 0px;
+
+  }
+  .elig{
+  border: 1px hidden #111;
+  height: 60vh;
+  width: 435px;
+  float: left;
+
+  margin:0px 0px 0px 0px;
+
+
+  /* purpul 4717f6*/
+
+
+  }
+  .hw{
+    border: 1px hidden #111;
+    margin:0px 0px 0px 0px;
+    width: 435px;
+    height: 60vh;
+   float: right;
+
+  }
+  .sf{
+  border: 1px hidden #111;
+  margin:0px 0px 0px 0px;
+  width: 430px;
+  height: 60vh;
+  float: left;
+
+
+
+
+  }
+  .cen{
+    border: 1px solid #111;
+    height:5vh;
+    width:180px;
+    margin: 5px 0px 8px 60px;
+    background-color:#001f3f;
+
+  }
+  .cen h1{
+    text-align: center;
+    font-size: 20px;
+    color:#f2f2f2;
+    padding-top: 10px;
+
+
+  }
+  .elig ul li{
+  line-height:30px;
+}
+
+  .hw ul li{
+      line-height:30px;
+}
+  .sf ul li{
+    line-height:30px;
+}
+
+.we{
+  border: 1px solid #111;
+  height:5vh;
+  width:180px;
+  margin: 5px 10px 5px 105px;
+  background-color:#001f3f;
+
+}
+.we h1{
+  text-align: center;
+  font-size: 20px;
+  color:#f2f2f2;
+  padding-top: 10px;
+
+
+}
+
+.sa{
+
+  height:5vh;
+  width:180px;
+  margin: 5px 10px 5px 105px;
+  background-color:#001f3f;
+
+}
+.sa h1{
+  text-align: center;
+  font-size: 20px;
+  color:#f2f2f2;
+  padding-top: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+}
