@@ -15,7 +15,7 @@ What things you need to install the software and how to install them
 3)web Browser chrome/firefox
 ```
 Give examples
-Atom
+React Js for Framework
 
 
 ### Installing
