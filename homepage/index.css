@@ -1,0 +1,756 @@
+
+body {
+  margin: 0;
+  font-family: Catamaran;
+  text-decoration: none;
+}
+
+.topnav {
+
+  overflow: hidden;
+  height: 8vh;
+  background-color:#f64c72;
+
+  padding:2px 0px 0px 5px;
+}
+
+.topnav a {
+
+  display: block;
+  color: #111;
+  text-align: center;
+  float:left;
+  font-weight: bold;
+
+  padding:13px 60px 0px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#001f3f;
+  color:white;
+  border-radius: 20px;
+}
+.logo{
+  height: 8vh;
+  width:170px;
+  border: 1px hidden black;
+  margin: 0px 0px 0px 20px;
+  float: left;
+
+}
+.logo-image{
+height:7vh;
+width: 145px;
+background-size: cover;
+background-position: center;
+margin: 0px 3px 0px 15px;
+
+}
+.header-contact{
+  margin: -2px 0px -2px 0px;
+  color:#f2f2f2;
+  background-color: #001f3f;
+font-size: 13px;
+text-align: center;
+word-spacing: 0.3em;
+
+
+
+
+
+}
+.motivate-heading{
+border: 1px solid #111;
+height: 6vh;
+margin: 20px 0px 0px 0px;
+background-color:#001f3f;
+
+
+}
+
+
+
+.motivate-heading h1{
+font-size: 20px;
+line-height: 8px;
+text-align: center;
+word-spacing: 0.3em;
+color: #f2f2f2;
+
+
+
+
+
+}
+
+
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+/*New-Update*/
+
+.New-Update{
+  border: 1px solid #111;
+  height:10vh;
+  width:150px;
+  float:left;
+  background-color:#f64c72;
+}
+
+.New-Update h1{
+  font-size: 20px;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+
+
+
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+  box-sizing: border-box;
+  width:1100px;
+  height:5vh;
+
+  margin: 10px 0px -15px 152px;
+
+}
+
+/* Slides */
+.slides {
+  text-align: center;
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:#f64c72 ;
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    background: #ddd;
+    width:1100px;
+    height: 6vh;
+    margin: 0px 0px 0px 152px;
+
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 20px 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+
+/*youtube and overview box*/
+.ybox iframe{
+border: 1px solid #111;
+width: 500px;
+height:20vh;
+float:left;
+
+box-shadow: 15px;
+margin: 10px 0px 10px -30px;
+}
+.obox{
+border: 1px solid #111;
+width:500px;
+float:right;
+
+margin: 10px 20px 10px 30px;
+
+height:20vh;
+}
+.learn-more{
+border: 1px solid #111;
+height: 5vh;
+width: 130px;
+margin: 5px 10px 60px 350px;
+background:#001f3f;
+}
+.learn-more a{
+font-size:20px;
+ font-weight: bold;
+ color: #f2f2f2f2;
+ text-decoration: none;
+ padding: 0px 0px 0px 10px;
+}
+
+
+.obox h5{
+  text-align: center;
+  margin: 5px 60px 60px 0px;
+  font-size: 20px;
+  color:#f64c72;
+}
+
+
+/* service */
+.servic{
+  border: 1px solid #111;
+  height:5vh;
+  width: 500px;
+  margin: 141px 50px 0px 400px;
+   background-color: #f64c72;
+
+
+}
+.servic h1{
+  text-align: center;
+    font-size: 20px;
+    color: #f2f2f2;
+    line-height: 10px;
+}
+.ment{
+  border: 1px solid #111;
+  height:5vh;
+   background-color: #001f3f;
+
+
+}
+.ment h1{
+  text-align: center;
+    font-size: 20px;
+    color: #f2f2f2;
+    line-height: 10px;
+    word-spacing: 1em;
+}
+
+/* ---service boxes--*/
+.serv-box{
+  border: 1px hidden #111;
+  height:112vh;
+}
+.serv-in{
+  border: 1px solid #f64c72;
+  width: 400px;
+  height:30vh;
+  float:left;
+  margin:25px 15px 15px 15px;
+}
+.the{
+  border: 1px solid #111;
+  width: 400px;
+  height:4vh;
+  background-color:#001f3f;
+}
+.the h6{
+  font-size:20px;
+  color:#f2f2f2;
+  margin:10px 0px 0px 100px;
+  line-height: 10px;
+
+}
+
+
+.serv-learn{
+  border: 1px solid #f64c72;
+  width: 400px;
+  background-color:#f64c72;
+  height:4vh;
+  margin:168px 0px 0px 0px;
+}
+.serv-learn a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f2f2f2;
+  padding: 7px 10px 0px 130px;
+}
+
+/*student FEEDBACK*/
+
+
+.slideshow {
+  position: relative;
+  background: #f1f1f1f1;
+  box-sizing: border-box;
+  width:1100px;
+  height:40vh;
+
+  margin: 10px 0px 5px 140px;
+
+}
+
+.slides img {
+  position: relative;
+  background: #f1f1f1f1;
+  box-sizing: border-box;
+  width:1100px;
+  height:38vh;
+
+  margin: 0px 0px 0px 0px;
+
+}
+
+
+/* Slides */
+.slides {
+  text-align: center;
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:#f64c72 ;
+  color: white;
+}
+.email-sub{
+ border: 1px solid #111;
+ height: 30vh;
+ width: 500px;
+margin: 10px 0px 10px 10px;
+float: left;
+}
+.join-update{
+  border: 1px solid #111;
+  height: 20vh;
+  width: 500px;
+  margin: 0px 0px 10px 0px;
+  background-color: #001f3f;
+
+
+}
+.join-update h1{
+  font-size: 20px;
+  font-style: Catamaran;
+  color:#f2f2f2;
+  font-weight: bold;
+  text-align: center;
+
+
+}
+.email-submit{
+  border: 1px solid #111;
+  height: 6vh;
+  width: 300px;
+  margin: 5px 5px 5px 5px;
+
+}
+.new-sub{
+border: 1px solid #111;
+height:6vh;
+width: 170px;
+background-color: #f64c72;
+margin: -45px 2px 0px 320px;
+}
+.new-sub h1{
+font-size: 20px;
+font-weight: bold;
+font-family: Catamaran;
+color: #f2f2f2;
+text-align: center;
+line-height: 10px;
+
+
+}
+/*company-feedback*/
+
+
+.mac{
+  position: relative;
+  background: #f1f1f1f1;
+  box-sizing: border-box;
+  width:600px;
+  height:30vh;
+
+  margin: 10px 0px 5px 600px;
+
+}
+
+.mac slides img {
+  position: relative;
+  background: #f1f1f1f1;
+  box-sizing: border-box;
+  width:600px;
+  height:29vh;
+
+  margin: 0px 0px 0px 0px;
+
+}
+
+
+
+.client-bus{
+  border: 1px solid #111;
+  height:5vh;
+  width: 500px;
+  margin: 0px 50px 0px 400px;
+   background-color: #f64c72;
+}
+.client-bus h1{
+  text-align: center;
+    font-size: 20px;
+    color: #f2f2f2;
+    line-height: 10px;
+}
+.company{
+  border:1px solid #111;
+  height:15vh;
+}
+.company h1{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin:-100px 0px 0px 0px;
+}
+.company-logo{
+  border: 1px solid #111;
+  width: 200px;
+  height:15vh;
+}
+.footer{
+border: 1px solid #111;
+height:40vh;
+background-color: #111;
+}
+.quick-links{
+  border:1px solid #f2f2f2;
+  height:39vh;
+  width:200px;
+  margin: 2px 5px 0px 0px;
+}
+.quick-links h1{
+font-size: 30px;
+font-weight: bold;
+text-shadow: 20px;
+margin:20px 10px 0px 30px;
+
+color:#f2f2f2;
+}
+
+.quick-links li{
+   list-style-type: none;
+   margin:20px 10px 0px 40px;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+.quick-links li a{
+text-decoration: none;
+color:#f2f2f2;
+
+}
+
+
+.social-media{
+  margin: -255px 40px 0px 400px;
+  border:1px solid #f2f2f2;
+  height:33vh;
+  width:200px;
+}
+
+.social-media h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 20px;
+  margin:20px 10px 0px 30px;
+
+  color:#f2f2f2;
+}
+
+.soc-img{
+height: 20vh;
+background-color: #FAED26;
+margin: 0px 5px 10px 5px;
+}
+.soc-l img{
+height: 8vh;
+
+width: 50px;
+margin: -120px 0px 120px 10px;
+}
+
+
+.righ{
+border: 1px solid #f2f2f2;
+height: 5vh;
+width: 91vh;
+margin:-40px 0px 0px  205px;
+
+}
+.righ h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 20px;
+  margin:-10px 10px -80px 40px;
+
+  color:#f2f2f2;
+
+
+}
+
+
+.google-map{
+  border:1px solid #f2f2f2;
+  height:35vh;
+  width:200px;
+  margin: -215px 40px 0px 800px;
+}
+.reac{
+  border:1px solid #f2f2f2;
+  height:40vh;
+  width:200px;
+  margin: -240px 0px 0px 1090px;
+
+
+}
+
+
+
+
+
+.reac h1{
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 15px;
+  margin:10px 10px 30px 8px;
+
+  color:#f2f2f2;
+
+
+}
+
+/*media QUERY for responsive website*/
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position:absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float:none;
+    display:block;
+    text-align: left;
+
+  }
+
+
+
+  .topnav {
+
+    overflow: hidden;
+    height: 6vh;
+    width: 375px;
+    background-color:#f64c72;
+
+    padding:2px 0px 0px 5px;
+  }
+
+  .topnav a {
+
+    display: block;
+    color: #111;
+
+
+    font-size:15px;
+  }
+
+  .
+  .logo{
+    height: 8vh;
+    width:120px;
+    border: 1px hidden black;
+    margin: 0px 0px 0px 0px;
+    float: left;
+
+  }
+  .logo-image{
+  height:6vh;
+  width: 145px;
+
+
+  }
+  .header-contact{
+  font-size: 7px;
+  width: 375px;
+  }
+
+  .motivate-heading {
+  height: 2vh;
+  width: 375px;
+  }
+
+  .motivate-heading h1{
+  font-size: 6px;}
+
+
+
+  .topnav .icon {
+    display: none;
+  }
+
+  /*New-Update*/
+
+  .New-Update{
+    height:4vh;
+    width:100px;
+
+  }
+
+  .New-Update h1{
+    font-size: 10px;
+
+
+  }
+
+
+
+
+  .slideshow-container {
+
+    width:400px;
+    height:5vh;
+
+    margin: 6px 0px 15px 0px;
+
+  }
+
+  /* Slides */
+  .slides {
+    text-align: center;
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color:#f64c72 ;
+    color: white;
+  }
+
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      background: #ddd;
+      width:1100px;
+      height: 6vh;
+      margin: 0px 0px 0px 152px;
+
+
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 20px 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+
+
+
+}
